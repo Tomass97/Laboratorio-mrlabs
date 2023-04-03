@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navegacion a {
+    color: rgb(41, 24, 24);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    padding: .5rem;
+    transition-property: background-color;
+    transition-duration: .3s;
+    border-radius: 2rem;
+}
+
+.navegacion a:hover {
+    background-color: #0c0cc4;
+    color: white;
+    border-radius: 2rem;
+
+}
+
+
